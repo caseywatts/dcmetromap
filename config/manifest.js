@@ -9,7 +9,7 @@ module.exports = function(/* environment, appConfig */) {
     name: "dcmetromap",
     short_name: "dcmetromap",
     description: "",
-    start_url: "/",
+    start_url: "/dcmetromap",
     display: "standalone",
     background_color: "#fff",
     theme_color: "#fff",
