@@ -1,0 +1,6 @@
+{
+  "name": "dcmetromap",
+  "dependencies": {
+    "add-to-homescreen": "^3.2.3"
+  }
+}
