@@ -1,7 +1,17 @@
 # dcmetromap
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a Progressive Web application
+
+It's basically an "offline application" that just contains an image of the DC Metro Map.
+
+The web page gets cached offline, and it offers for you to add a shortcut to your home screen so it looks like an application you get from the app store.
+
+I used this guide to get started with PWAs in Ember:
+https://madhatted.com/2017/6/16/building-a-progressive-web-app-with-ember
+
+I'm not using any particular Ember features except the PWA tools, but I have to say - it was super easy. This whole thing took me an hour to build and an hour to get deployed properly.
+
+![app screenshot]('/app-screenshot.png')
 
 ## Prerequisites
 
