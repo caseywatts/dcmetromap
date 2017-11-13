@@ -13,6 +13,8 @@ I'm not using any particular Ember features except the PWA tools, but I have to 
 
 ![app screenshot]('/app-screenshot.png')
 
+To run it locally, currently you have to comment out the https redirect code in `application.hbs` (unless you have a certificate locally).
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
