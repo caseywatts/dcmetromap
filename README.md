@@ -11,7 +11,7 @@ https://madhatted.com/2017/6/16/building-a-progressive-web-app-with-ember
 
 I'm not using any particular Ember features except the PWA tools, but I have to say - it was super easy. This whole thing took me an hour to build and an hour to get deployed properly.
 
-![app screenshot]('/app-screenshot.png')
+![app screenshot](app-screenshot.png)
 
 To run it locally, currently you have to comment out the https redirect code in `application.hbs` (unless you have a certificate locally).
 
