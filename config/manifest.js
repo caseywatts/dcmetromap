@@ -20,6 +20,12 @@ module.exports = function(/* environment, appConfig */) {
         type: 'image/png',
         targets: ['favicon']
       },
+      {
+        src: '/assets/icons/appicon-280.png',
+        sizes: `280x280`,
+        type: 'image/png',
+        targets: ['apple']
+      },
       ...[192, 512].map((size) => ({
         src: `/assets/icons/appicon-${size}.png`,
         sizes: `${size}x${size}`,
