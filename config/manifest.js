@@ -15,7 +15,7 @@ module.exports = function(/* environment, appConfig */) {
     theme_color: "#fff",
     icons: [192, 512].map((size) => ({
       src: `/assets/icons/appicon-${size}.png`,
-      sizes: `${size}`,
+      sizes: `${size}x${size}`,
       type: "image/png"
     }))
   };
