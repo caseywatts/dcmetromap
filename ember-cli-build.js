@@ -10,6 +10,17 @@ module.exports = function(defaults) {
         '*.jpg',
         'assets/**/*'
       ],
+    },
+    'ember-cli-image-transformer': {
+      images: [
+        {
+          inputFilename: 'public/2017-System-Map.jpg',
+          outputFileName: 'appicon-',
+          convertTo: 'png',
+          destination: 'assets/icons/',
+          sizes: [192, 512]
+        }
+      ]
     }
   });
 
