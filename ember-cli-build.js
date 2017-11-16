@@ -14,7 +14,7 @@ module.exports = function(defaults) {
     'ember-cli-image-transformer': {
       images: [
         {
-          inputFilename: 'public/2017-System-Map.jpg',
+          inputFilename: 'public/2017-System-Map-zoomed.jpg',
           outputFileName: 'appicon-',
           convertTo: 'png',
           destination: 'assets/icons/',
