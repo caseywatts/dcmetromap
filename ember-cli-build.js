@@ -18,7 +18,7 @@ module.exports = function(defaults) {
           outputFileName: 'appicon-',
           convertTo: 'png',
           destination: 'assets/icons/',
-          sizes: [192, 512]
+          sizes: [32, 192, 512]
         }
       ]
     }

@@ -13,10 +13,18 @@ module.exports = function(/* environment, appConfig */) {
     display: "standalone",
     background_color: "#fff",
     theme_color: "#fff",
-    icons: [192, 512].map((size) => ({
-      src: `/assets/icons/appicon-${size}.png`,
-      sizes: `${size}x${size}`,
-      type: "image/png"
-    }))
+    icons: [
+      {
+        src: '/assets/icons/appicon-32.png',
+        sizes: `32x32`,
+        type: 'image/png',
+        targets: ['favicon']
+      },
+      ...[192, 512].map((size) => ({
+        src: `/assets/icons/appicon-${size}.png`,
+        sizes: `${size}x${size}`,
+        type: "image/png"
+      }))
+    ]
   };
 }
